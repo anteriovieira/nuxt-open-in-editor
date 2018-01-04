@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-open-in-editor",
+  "version": "0.0.0",
+  "description": "Nuxt server middleware to open any file in an editor by request to defined route",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Antério Vieira <anteriovieira@gmail.com>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/anteriovieira/nuxt-open-in-editor",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lib",
+      "test"
+    ]
+  },
+  "dependencies": {
+    "express-open-in-editor": "^3.1.1"
+  },
+  "devDependencies": {
+    "nuxt-module-builder": "latest"
+  }
+}
