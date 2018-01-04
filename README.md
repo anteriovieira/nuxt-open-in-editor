@@ -30,10 +30,10 @@
 
 | Option  | Type | Default  | Info |
 | ------------- | ------------- | ------------- | ------------- |
-| path  | `String|null` | `/_open` | To trigger middleware on *any* request method to `/_open` |
-| editor | `String|null` | `code` | Editor to open a file |
-| cmd | `String|null` | `null` | Command to launch an editor |
-| pattern | `String|null` | `null` | Option to specify arguments for a command |
+| path  | `String` | `/_open` | To trigger middleware on *any* request method to `/_open` |
+| editor | `String` | `code` | Editor to open a file |
+| cmd | `String` | `null` | Command to launch an editor |
+| pattern | `String` | `null` | Option to specify arguments for a command |
 | line | `Number` | `1` | Defines the number of the first line in the editor |
 | column | `Number` | `1` | Defines the number of the first column in the editor |
 
