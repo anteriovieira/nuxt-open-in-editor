@@ -1,6 +1,6 @@
 {
   "name": "nuxt-open-in-editor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Nuxt server middleware to open any file in an editor by request to defined route",
   "license": "MIT",
   "contributors": [
